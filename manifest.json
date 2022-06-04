@@ -1,8 +1,8 @@
 {
     "short_name": "Lab 2",
     "name": "This is Lab2",
-    "start_url": "/",
-    "id": "/",
+    "start_url": "/Info-6128_PWA_Lab2",
+    "id": "/Info-6128_PWA_Lab2",
     "display": "standalone",
     "background_color": "#daa520",
     "theme_color": "#f2d2bd",
