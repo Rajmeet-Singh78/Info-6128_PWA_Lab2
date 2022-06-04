@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: antiquewhite;
+    flex:2;
+}
+
+img{
+    max-width: 50%;
+}
+
+main{
+    border-top: solid 5px goldenrod;
+    background-color:bisque;
+    flex:5;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+/*Below code will execute only when screen width is greater than 500px*/
+@media screen and (min-width:500px) and (orientation: landscape){
+    .container{
+        flex-direction: row;
+    }
+
+    main{
+        border-left: solid 5px red;
+        border-top: 0;    
+    }
+
+
+
+}

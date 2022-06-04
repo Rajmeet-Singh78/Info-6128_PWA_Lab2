@@ -1,0 +1,25 @@
+{
+    "short_name": "Lab 2",
+    "name": "This is Lab2",
+    "start_url": "/",
+    "id": "/",
+    "display": "standalone",
+    "background_color": "#daa520",
+    "theme_color": "#f2d2bd",
+    "description":"This is description",
+    "orientation": "any",
+    "icons":[
+        {
+            "src": "icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+        ]
+    
+}
